@@ -1,0 +1,36 @@
+title: "[Your name] | Portfolio"
+description: "A personal portfolio about product strategy, consumer technology, and the path from early-stage startups to global marketplaces."
+url: "https://larajhaveri.github.io"
+baseurl: ""
+lang: en
+author:
+  name: "[Your name]"
+
+markdown: kramdown
+permalink: pretty
+timezone: America/Los_Angeles
+kramdown:
+  parse_block_html: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - PLAN.md
+  - README.md
+  - replit.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - .bundle
+  - .cache
+  - .local
+  - .agents

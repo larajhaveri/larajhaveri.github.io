@@ -1,45 +1,19 @@
-# [Project name]
+# Lara's Portfolio
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A static Markdown portfolio built with Jekyll for GitHub Pages. Keep all site source files at the repository root; publishing is configured for `main` / (root).
 
-## Run & Operate
+## Useful commands
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- `bundle exec jekyll serve` — preview locally at `http://127.0.0.1:4000`
+- `bundle exec jekyll build` — build to the ignored `_site/` directory
 
-## Stack
+## Content and design
 
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+- Markdown pages with YAML front matter are the source of page content.
+- Shared HTML lives in `_layouts/` and `_includes/`; styling and illustrations live in `assets/`.
+- Keep supplied career facts verbatim in meaning. Do not invent employers, dates, achievements, projects, or metrics. Replace visible placeholders only with details the user provides.
+- The public contact link is `mailto:larajhaveri@berkeley.edu`.
 
-## Where things live
+## Publishing
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
-
-## Architecture decisions
-
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
-
-## Product
-
-_Describe the high-level user-facing capabilities of this app once they exist._
-
-## User preferences
-
-_Populate as you build — explicit user instructions worth remembering across sessions._
-
-## Gotchas
-
-_Populate as you build — sharp edges, "always run X before Y" rules._
-
-## Pointers
-
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+GitHub Pages builds the site from the `main` branch and repository root. `url` is `https://larajhaveri.github.io` and `baseurl` is empty.

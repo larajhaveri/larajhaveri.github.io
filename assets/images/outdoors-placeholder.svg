@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 480" role="img" aria-labelledby="title desc">
+  <title id="title">Outdoor photo placeholder</title>
+  <desc id="desc">A simple illustrated trail through green hills. Replace this placeholder with a personal outdoor photo.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#d9e9de"/>
+      <stop offset="1" stop-color="#f4e8c8"/>
+    </linearGradient>
+    <linearGradient id="hill" x2=".5" y2="1">
+      <stop stop-color="#649271"/>
+      <stop offset="1" stop-color="#315f4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="840" height="480" fill="url(#sky)"/>
+  <circle cx="662" cy="111" r="55" fill="#e3b64c"/>
+  <path d="M0 298c129-98 229-110 364-8 90 68 178 70 476-64v254H0z" fill="#8cb59a"/>
+  <path d="M0 354c168-135 292-82 425-8 127 70 273 45 415-46v180H0z" fill="url(#hill)"/>
+  <path d="M333 480c33-92 120-139 135-223 8-46-12-68-21-105 52 46 97 95 87 155-11 67-86 102-85 173z" fill="#f0d9ac"/>
+  <path d="M0 403c84-33 147-35 230 4 62 30 119 46 193 20 62-22 114-19 172 6v47H0z" fill="#244f3d" opacity=".75"/>
+</svg>
