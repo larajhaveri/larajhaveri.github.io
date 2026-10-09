@@ -447,6 +447,108 @@ p {
   gap: 1.15rem;
 }
 
+.stage-key-title {
+  margin-bottom: 0.65rem;
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+
+.stage-key {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0 0 2.25rem;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.stage-badge {
+  display: inline-block;
+  margin-right: 0.35rem;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid transparent;
+  border-radius: 99px;
+  background: #e3eee5;
+  color: var(--green-dark);
+  font-size: 0.78rem;
+  font-weight: 750;
+  line-height: 1.5;
+  vertical-align: baseline;
+}
+
+.stage-badge--define {
+  background: #fff0c8;
+  color: #584727;
+}
+
+.stage-badge--build-launch {
+  background: #fbe4db;
+  color: #7f3228;
+}
+
+.stage-badge--measure-retain {
+  background: #eee7f7;
+  color: #4a3d64;
+}
+
+.career-timeline {
+  --timeline-gutter: 1.6rem;
+  position: relative;
+  margin: 0 0 0 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.career-timeline::before {
+  position: absolute;
+  top: 1.9rem;
+  bottom: 1.9rem;
+  left: -1px;
+  border-left: 2px solid #aebcb1;
+  content: "";
+}
+
+.timeline-entry {
+  position: relative;
+  padding-left: var(--timeline-gutter);
+}
+
+.timeline-entry + .timeline-entry {
+  margin-top: 1.5rem;
+}
+
+.career-timeline .experience::before {
+  top: 1.55rem;
+  left: calc(0rem - var(--timeline-gutter) - 0.45rem);
+  width: 0.9rem;
+  height: 0.9rem;
+  background: var(--green);
+  box-shadow: 0 0 0 0.25rem var(--paper);
+}
+
+.experience-role {
+  margin-bottom: 0.25rem;
+  color: var(--ink);
+}
+
+.experience-details {
+  margin-bottom: 1.1rem;
+  font-size: 0.91rem;
+}
+
+.experience li + li {
+  margin-top: 0.85rem;
+}
+
+.experience > :last-child {
+  margin-bottom: 0;
+}
+
+.education-section h3:not(:first-of-type) {
+  margin-top: 1.5rem;
+}
+
 .experience {
   position: relative;
   padding: clamp(1.2rem, 3.5vw, 1.8rem);
@@ -533,6 +635,10 @@ p {
 }
 
 @media (max-width: 640px) {
+  .career-timeline {
+    --timeline-gutter: 1.1rem;
+  }
+
   .header-inner {
     width: min(100% - 2rem, 70rem);
     min-height: 0;

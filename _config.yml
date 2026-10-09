@@ -22,6 +22,7 @@ defaults:
 
 exclude:
   - Change1.md
+  - Change2.md
   - attached_assets
   - PLAN.md
   - README.md

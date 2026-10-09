@@ -1,0 +1,2 @@
+{%- assign stage_class = include.stage | slugify -%}
+<span class="stage-badge stage-badge--{{ stage_class }}">{{ include.stage | escape }}</span>{%- comment -%}Keep the badge inline in Markdown lists.{%- endcomment -%}

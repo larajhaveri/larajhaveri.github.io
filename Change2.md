@@ -13,6 +13,12 @@ Add a visual vertical timeline to the Work Experience page, framing Lara Jhaveri
 - Add the education section using the user's supplied details.
 - Preserve the static Jekyll structure and accessible, responsive, single-column layout.
 
-## Missing content
+## Approved implementation
 
-The uploaded instructions end immediately after the Impress.ai heading and an empty bullet. The remaining Impress.ai bullets and education details are needed before implementation.
+- Use a connecting line, dots, and stacked timeline cards in the existing light style.
+- Keep all four supplied Delivery Hero bullets, honoring the exact-content requirement.
+- Add UC Berkeley, Haas School of Business — MBA with AI Certificate (Expected May 2027), and UCLA — B.A. Global Studies & French, Magna Cum Laude (2017), below the timeline.
+- Do not add a downloadable résumé PDF or any phone number.
+- Leave the header, headshot, and other pages unchanged.
+- Exclude this change document from the published site.
+- Verify the Jekyll build, supplied content, and layouts at 375px and 1280px.
