@@ -1,13 +1,15 @@
 ---
 title: About
 permalink: /about/
-description: "The story behind [Your name]'s path from an early-stage startup to Delivery Hero and Berkeley Haas."
+description: "The story behind Lara Jhaveri's path from an early-stage startup to Delivery Hero and Berkeley Haas."
 ---
 
 About
 {: .eyebrow}
 
-# About [Your name]
+# About Lara Jhaveri
+
+<img class="about-headshot" src="{{ '/assets/images/lara-headshot.jpg' | relative_url }}" alt="Headshot of Lara Jhaveri" width="720" height="780" decoding="async">
 
 I’ve worked at an early-stage startup, helped shape a grocery marketplace across global markets, and am now a second-year MBA at Berkeley Haas.
 {: .page-intro}
@@ -32,5 +34,5 @@ I’m pursuing product-management work in consumer tech, ideally on product grow
 
 {% include card-end.html %}
 
-Placeholder: add a personal photo and LinkedIn profile link if you want them included.
+Placeholder: add a LinkedIn profile link if you want it included.
 {: .placeholder-note .home-section}
