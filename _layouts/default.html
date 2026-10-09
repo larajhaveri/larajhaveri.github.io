@@ -7,7 +7,9 @@
     <a class="skip-link" href="#main-content">Skip to content</a>
     {% include header.html %}
     <main id="main-content" class="site-main">
-      {{ content }}
+      <div class="page-content{% if page.layout == 'home' %} home-content{% endif %}">
+        {{ content }}
+      </div>
     </main>
     {% include footer.html %}
   </body>

@@ -1,0 +1,2 @@
+- [Retiring generated artifacts](artifact-removal.md) — managed workflows reject direct removal; retiring an approved artifact directory removes its registration and workflows.
+- [GitHub access checks](github-access.md) — a healthy Git provider connection does not guarantee that GitHub CLI commands receive authorization.

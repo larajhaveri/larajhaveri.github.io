@@ -1,0 +1,11 @@
+<div class="visual-links">
+  {% for visual in page.visual_links %}
+  <a class="visual-card" href="{{ visual.url | relative_url }}">
+    <img src="{{ visual.image | relative_url }}" width="840" height="480" alt="{{ visual.alt | escape }}">
+    <span class="visual-card-copy">
+      <span><strong>{{ visual.title | escape }}</strong><span>{{ visual.caption | escape }}</span></span>
+      <span class="card-arrow" aria-hidden="true">↗</span>
+    </span>
+  </a>
+  {% endfor %}
+</div>

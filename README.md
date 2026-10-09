@@ -5,6 +5,7 @@ A static Jekyll site for `larajhaveri.github.io`. Page content is Markdown with 
 ## Update the site
 
 - Edit `index.md`, `about.md`, `work-experience.md`, or `contact.md` to update page content.
+- Home-page intro and image-card copy are in `index.md`'s YAML front matter; the reusable templates keep that copy separate from presentation.
 - Keep facts accurate. Replace bracketed placeholders only with details you want made public.
 - Update navigation in `_data/navigation.yml`.
 - Adjust colors, spacing, and responsive styling in `assets/css/style.css`.
@@ -42,6 +43,12 @@ This is a GitHub user site for `larajhaveri.github.io`:
 ## Run Lighthouse
 
 For a repeatable manual check, start the local preview, open it in Chrome, then choose **DevTools → Lighthouse**. Run both Desktop and Mobile reports and check Performance, Accessibility, Best Practices, and SEO. The layout is designed to remain readable at 375px and 1280px. No trackers, external fonts, images, or runtime JavaScript are required.
+
+### Verified results
+
+On October 9, 2026, the GitHub Pages-compatible Jekyll build succeeded. All four pages passed internal-link, navigation, heading, image, and metadata checks. Browser checks at 375px and 1280px found no horizontal overflow.
+
+Local Lighthouse 13.5 reports for all four pages, in both Mobile and Desktop modes, scored **100** for Performance, Accessibility, Best Practices, and SEO. These are local-preview results; published-site scores can vary with hosting conditions.
 
 ## Assumptions and placeholders
 

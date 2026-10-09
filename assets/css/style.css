@@ -112,6 +112,14 @@ svg {
   transform: rotate(-8deg);
 }
 
+.brand-mark::after {
+  width: 0.7rem;
+  height: 0.7rem;
+  border: 3px solid var(--green-dark);
+  border-radius: 50%;
+  content: "";
+}
+
 .site-nav {
   display: flex;
   flex-wrap: wrap;
@@ -327,7 +335,7 @@ p {
 
 .visual-links {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: 1fr;
   gap: 1rem;
 }
 
@@ -350,7 +358,7 @@ p {
 
 .visual-card img {
   width: 100%;
-  aspect-ratio: 1.75;
+  height: clamp(12rem, 30vw, 22rem);
   object-fit: cover;
 }
 
@@ -438,6 +446,10 @@ p {
   border-radius: 1.25rem;
   background: var(--white);
   scroll-margin-top: 1rem;
+}
+
+.experience + .experience {
+  margin-top: 1.15rem;
 }
 
 .experience::before {
