@@ -1,7 +1,7 @@
 ---
 title: Work Experience
 permalink: /work-experience/
-description: "Work experience in product and commercial strategy, early-stage startups, and education marketplaces."
+description: "Lara Jhaveri's career in product strategy and growth, framed through Discover, Define, Build & Launch, and Measure & Retain, plus education."
 ---
 
 Work experience
@@ -9,59 +9,82 @@ Work experience
 
 # From early-stage to global scale.
 
-A resume-style view of the experience that led me toward product strategy. Dates and the name of one employer were not supplied, so they remain marked placeholders.
+My prior work was the outbound half of product management — understanding markets, surfacing customer needs, and driving adoption. I'm now building the upstream half: translating that market and customer insight into strategy, business cases, and roadmap decisions.
 {: .page-intro}
 
-{% include card-start.html class="experience" %}
+**Product stages**
+{: .stage-key-title}
+
+- {% include stage-badge.html stage="Discover" %} Market/user research
+- {% include stage-badge.html stage="Define" %} Strategy & business cases
+- {% include stage-badge.html stage="Build & Launch" %} Shipping & driving adoption
+- {% include stage-badge.html stage="Measure & Retain" %} Metrics, retention, optimization
+{: .stage-key}
+
+{% include timeline-start.html %}
+
+{% include timeline-entry-start.html id="bluerobins" %}
 
 ## BlueRobins
 {: #bluerobins}
 
-**Summer role** · <span class="placeholder">[Dates not provided]</span>
+**Product Strategy & Growth Lead Intern**
+{: .experience-role}
 
-Early-stage marketplace connecting K–12 students with mentors.
+Berkeley · May–Aug 2026
+{: .experience-details}
 
-- Led a team of four.
-- Built the mentor onboarding and lifecycle system.
+- {% include stage-badge.html stage="Build & Launch" %} Partnered cross-functionally to discover, design, and ship a company-wide KPI dashboard and mentor engagement system, driving measurable activation and retention gains
 
-{% include card-end.html %}
+{% include timeline-entry-end.html %}
 
-{% include card-start.html class="experience" %}
+{% include timeline-entry-start.html id="delivery-hero" %}
 
 ## Delivery Hero
 {: #delivery-hero}
 
-**Four years** · <span class="placeholder">[Dates not provided]</span>
+**Vendor Growth Manager, APAC & Europe**
+{: .experience-role}
 
-Product and commercial strategy for the grocery marketplace across 18 markets in APAC, Europe, and Turkey.
+Singapore · 2021–2025
+{: .experience-details}
 
-- Developed commercial cases for product features and their potential GMV and retention impact.
-- Worked with product teams on phasing, metrics, and market feedback.
-- Connected market needs with product decisions.
+- {% include stage-badge.html stage="Discover" %} Led direct user interviews with major retail partners to surface needs and translate them into product requirements
+- {% include stage-badge.html stage="Define" %} Built a data-driven business case from competitor and market research that secured $300K in new feature investment
+- {% include stage-badge.html stage="Measure & Retain" %} Analyzed user behavior and spending data to identify price-sensitive segments, driving a 44% revenue increase through pricing changes
+- {% include stage-badge.html stage="Build & Launch" %} Drove adoption of a new discount feature across 11 markets and 30M+ monthly users, achieving 100% strategic account adoption
 
-{% include card-end.html %}
+{% include timeline-entry-end.html %}
 
-{% include card-start.html class="experience" %}
+{% include timeline-entry-start.html id="impress-ai" %}
 
-## [Startup name not provided]
-{: #startup}
+## Impress.ai
+{: #impress-ai}
 
-**Employee number ten** · <span class="placeholder">[Dates not provided]</span>
+**Associate, Strategy & Operations**
+{: .experience-role}
 
-HR-tech startup in Singapore.
+Singapore · 2018–2021
+{: .experience-details}
 
-- Ran a pre-Series A fundraise.
-- Held responsibilities similar to a chief-of-staff role.
+- {% include stage-badge.html stage="Define" %} Supported a $3M pre-Series A raise, owning the investor pitch deck and data room covering SaaS metrics and unit economics
+- {% include stage-badge.html stage="Measure & Retain" %} Built quantitative retention and revenue models, presenting directly to leadership and the board; designed the company's first customer analytics dashboard, tracking retention and churn across 40+ B2B clients, driving churn to 0
 
-{% include card-end.html %}
+{% include timeline-entry-end.html %}
 
-{% include card-start.html class="home-section note-card" %}
+{% include timeline-end.html %}
 
-## Berkeley Haas
+{% include card-start.html class="home-section note-card education-section" %}
 
-Second-year MBA. Graduation date not provided.
+## Education
+{: #education}
 
-[Add dates or more education details if you want them shown.]
-{: .placeholder}
+### UC Berkeley, Haas School of Business
+
+MBA with AI Certificate (Expected May 2027)
+
+### UCLA
+
+B.A. Global Studies & French, Magna Cum Laude (2017)
 
 {% include card-end.html %}
